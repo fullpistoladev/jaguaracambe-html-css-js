@@ -80,8 +80,6 @@ h3 {
   font-family: 'IM Fell Double Pica', serif;
 }
 
-
-
 h1, h3, h2 {
   margin: 0px;
   padding: 0px;
@@ -193,7 +191,7 @@ main {
 }
 
 .link:hover {
-  border-radius: 20px 20px 0 0;
+  background-color: #E2711D;
 }
 
 .sublinks:hover ~ a {
@@ -338,4 +336,51 @@ p {
 .equipe {
   background: rgba(226,113,29,1);
   
+}
+
+.img-pequi, .img-avaliacao, .img-educacao  {
+  height: 30vh;
+}
+
+.pad {
+  height: 30vh;
+  width: 100%;
+  background: rgba(226,113,29,1);
+}
+
+.projetos {
+  position: relative;
+  justify-content: space-around;
+  background: rgba(226,113,29,1);
+}
+.pequi {
+  margin-top: 40vh;
+}
+.avaliacao {
+  margin-top: 10vh;
+}
+.educacao {
+  margin-top: -40vh;
+}
+
+.pequi, .avaliacao, .educacao {
+  height: 45vh;
+  padding: 30px 30px 0px;
+  background-color: rgba(255,191,105,1);
+ 
+  border-radius: 20px;
+}
+
+.pequi:hover , .avaliacao:hover, .educacao:hover {
+  background-color: rgb(143, 63, 3);
+}
+
+.projetos h2 {
+  padding-top: 10px;
+  color: rgba(58, 25, 0, 0.75);
+}
+.projetos-jaguaracambé {
+  position: absolute;
+  top: 60px;
+  left: 30px;
 }
