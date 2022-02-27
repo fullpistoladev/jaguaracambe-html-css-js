@@ -45,6 +45,7 @@ a {
   box-shadow: 8px 11px 25px 3px rgba(226,113,29,0.75);
   -webkit-box-shadow: 8px 11px 25px 3px rgba(226,113,29,0.75);
   -moz-box-shadow: 8px 11px 25px 3px rgba(226,113,29,0.75);
+  
 }
 
 ul a {
@@ -88,10 +89,6 @@ h1, h3, h2 {
 
 h3 {
   text-align: center;
-}
-
-.container {
-  padding: 0 0;
 }
 
 main {
@@ -245,7 +242,7 @@ header {
 
 
 .foto-equipe {
-  margin-top: 10vh;
+  margin-top: 17vh;
   margin-right: 200px;
   width: 40vh;
   height: 50vh;
@@ -281,6 +278,7 @@ header {
   
   height: 25vh;
   width: 25%;
+  margin-top: 6vh;
   background-color: #E2711D;
   padding: 6px 20px;
   border-radius: 20px;
@@ -344,48 +342,78 @@ p {
 }
 
 .img-pequi, .img-avaliacao, .img-educacao  {
-  height: 30vh;
-}
-
-.pad {
-  height: 30vh;
-  width: 100%;
-  background: rgba(226,113,29,1);
+  height: 35vh;
+  border-radius: 76% 24% 72% 28% / 42% 52% 48% 58%;
 }
 
 .projetos {
   position: relative;
-  justify-content: space-around;
-  background: rgba(226,113,29,1);
 }
 .pequi {
-  margin-top: 40vh;
+  position: absolute;
+  top: 25%;
+  left: 28%;
 }
 .avaliacao {
-  margin-top: 10vh;
+  margin-top: 50vh;
+  position: absolute;
+  left: 30%;
+
 }
 .educacao {
-  margin-top: -40vh;
+  margin-top: -35vh;
 }
+
 
 .pequi, .avaliacao, .educacao {
-  height: 45vh;
-  padding: 30px 30px 0px;
-  background-color: rgba(255,191,105,1);
- 
-  border-radius: 20px;
+  height: 35vh;
+  padding: 0px 0px 0px 0px;
+  background: rgba(226,113,29,1);
+  box-shadow: 8px 11px 25px 3px rgba(226,113,29,0.75);
+  -webkit-box-shadow: 8px 11px 25px 3px rgba(226,113,29,0.75);
+  -moz-box-shadow: 8px 11px 25px 3px rgba(226,113,29,0.75);
+  position: relative;
+  border-radius: 76% 24% 72% 28% / 42% 52% 48% 58%;
 }
 
-.pequi:hover , .avaliacao:hover, .educacao:hover {
-  background-color: rgb(143, 63, 3);
+.avaliacao, .img-avaliacao {
+  border-radius: 30% 70% 23% 77% / 62% 39% 61% 38%;
+}
+
+.title {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 60%;
+  text-align: center;
+}
+
+.projetos-texto {
+  
+  width: 80%;
+  margin: auto;
+  padding-top: 15px;
+  /* -webkit-box-shadow: 6px 9px 16px 4px rgba(226,113,29,0.81); 
+  box-shadow: 6px 9px 16px 4px rgba(226,113,29,0.81); */
+}
+
+.projetos-jaguaracambé {
+  margin-top: 3vh;
+}
+
+.projetos-side-content {
+  position: absolute;
+  left: 5%;
+  top: 20%;
+  text-align: center;
+  border-radius: 38% 62% 70% 30% / 55% 71% 29% 45%;
+  box-shadow: 6px 9px 16px 4px rgba(226,113,29,0.81);
+  width: 40%;
+  height: 40%;
+  background-color: #E2711D;
 }
 
 .projetos h2 {
   padding-top: 10px;
-  color: rgba(58, 25, 0, 0.75);
-}
-.projetos-jaguaracambé {
-  position: absolute;
-  top: 60px;
-  left: 30px;
+  color: rgba(255, 255, 255, 0.75);
 }
