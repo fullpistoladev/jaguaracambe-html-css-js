@@ -36,6 +36,7 @@ h3 {
   font-size: 1.2em;
   font-family: 'Shippori Mincho B1', serif;
   text-align: left;
+  width: 80%;
 }
 
 .links a {
@@ -98,8 +99,8 @@ main {
   flex: 1;
   display: flex;
   flex-direction: column;
-  background: linear-gradient(229deg, rgba(255,191,105,1) 0%, rgba(226,113,29,1) 100%);
- /*  background: linear-gradient(229deg, rgba(255,191,105,1) 0%, rgba(226,113,29,1) 100%); */
+/*   background: linear-gradient(229deg, rgba(255,191,105,1) 0%, rgba(226,113,29,1) 100%);
+ */ /*  background: linear-gradient(229deg, rgba(255,191,105,1) 0%, rgba(226,113,29,1) 100%); */
   overflow: hidden;
   scroll-behavior: auto;
 }
@@ -163,7 +164,7 @@ header {
   width: 100%;
   height: 100vh;
   padding-top: 10vh;
-  background-color: transparent;
+  background: linear-gradient(229deg, rgba(255,191,105,1) 0%, rgba(226,113,29,1) 100%);
  /*  background-image: url("../jaguaracambe-fotos/aaa.png"); */
   background-size: cover;
   background-repeat: no-repeat;
@@ -171,7 +172,7 @@ header {
   top: 0;
   left: 0;
   z-index: 0;
-  background-attachment: fixed;
+ 
 }
 
 .jaguaracambe-image {
@@ -183,10 +184,9 @@ header {
 
 .side-content {
   height: 30%;
-  top: 30%;
+  top: 35%;
   padding-left: 70px;
   position: fixed;
-  border: 1px solid red;
 }
 
 .sublinks {
@@ -211,12 +211,13 @@ header {
 }
 
 .quem-somos-page {
-  margin-top: 20vh;
   height: 100vh;
   width: 100%;
   position: relative;
   top: 50%;
-  border: 1px solid red;
+  background: linear-gradient(229deg, rgba(255,191,105,1) 0%, rgba(226,113,29,1) 100%);
+
+  
 }
 
 .quem-somos-section {
@@ -260,6 +261,8 @@ header {
   opacity: 0.9;
   background-size: cover;
   background-attachment: fixed;
+  z-index: 1;
+  background-color:linear-gradient(229deg, rgba(255,191,105,1) 0%, rgba(226,113,29,1) 100%);;
 }
 
 
@@ -336,7 +339,8 @@ p {
   align-items: center;
   width: 100%;
   height: 100vh;
-  
+  z-index: 1;
+  background: linear-gradient(229deg, rgba(255,191,105,1) 0%, rgba(226,113,29,1) 100%);
 }
 
 .equipe {
@@ -438,7 +442,7 @@ p {
   position: relative;
   display: block;
   width: calc(139% + 1.3px);
-  height: 450px;
+  height: 400px;
 }
 
 .wave-projects .shape-fill {
