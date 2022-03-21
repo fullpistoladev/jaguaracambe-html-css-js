@@ -6,6 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jaguaracambe</title>
+  <link rel="icon" href="./photos/logo.jpeg">
+
   <link rel="stylesheet" href="styles.css">
   <meta name="description" content="Página principal da ONG Jaguaracambe" />
   <link href="https://allfont.net/allfont.css?fonts=edo" rel="stylesheet" type="text/css" />
@@ -31,7 +33,7 @@
           </ul>
         </div>
         <div class='links'>
-          <a class='link' href="">PROJETOS</a>
+          <a class='link' href="#projetos">PROJETOS</a>
           <ul class='sublinks'>
             <a class='sublink' href="">Educação Ambiental</a>
             <a class='sublink' href="">Pesq. Científica</a>
@@ -58,19 +60,19 @@
       </nav>
     </header>
 
-    <div class='homePage'>
-      <div class='side_content'>
-        <h1 class='home_title'>JAGUARACAMBÉ</h1>
-        <h3 class='home_subtitle'
+    <div class='home-page'>
+      <div class='side-content'>
+        <h1 class='home-title'>JAGUARACAMBÉ</h1>
+        <h3 class='home-subtitle'
         >Centro de Conservação de Animais Silvestres</h3>
       </div>
-      <img class='jaguaracambe_image' src='./photos/jaguaracambe.png'></img>
+      <img class='jaguaracambe-image' src='./photos/jaguaracambe.png'></img>
     </div>
 
-    <div class='quem_somos_page'>
+    <div class='quem-somos-page'>
       <div class='top-quem-somos'>
-        <div class='quem_somos_section'>
-          <h2 class='quem_somos_title'>Quem somos</h2>
+        <div class='quem-somos-section'>
+          <h2 class='quem-somos-title'>Quem somos</h2>
           <p>A jaguaracambé é uma associação não governamental que visa desenvolver e apoiar ações para a
           conservação da biodiversidade. Nossa equipe é formada por pesquisadores, educadores, especialistas
           em tecnologia e um time de voluntários que, juntos, trabalham pela preservação das
@@ -90,7 +92,7 @@
       </div>
 
 
-      <div class='missao_visao_valores'>
+      <div class='missao-visao-valores'>
         <div class='missao'>
           <h3>Missao</h3>
           <p>Pesquisa e educação são os pilares do alicerce que ajudará a jaguaracambé
@@ -115,14 +117,19 @@
 
     </div>
 
-    <div class='pad'>
+    
 
-    </div>
+    <div id='projetos'>
 
-    <div class='projetos'>
-      <div class='projetos-side-content'>
-        <h1 class='projetos-jaguaracambé'>Projetos da Jaguaracambe</h1>
-        <p class='projetos-texto'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+      <div class="wave-projects">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+        </svg>
+      </div>
+      
+      <div class='sobre-projetos'>
+        <h1 class='sobre-projetos-titulo'>Projetos da Jaguaracambe</h1>
+        <p class='sobre-projetos-texto'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
           consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
@@ -130,16 +137,36 @@
           sunt in
           culpa qui officia deserunt mollit anim id est laborum</p>
       </div>
-      <div class='pequi'>
-        <img class='img-pequi' src='./photos/pequi.jpeg'><h2 class='title'>Sou eu Pequi</h2></img>
-      </div>
-      <div class='avaliacao'>
-        <img class='img-avaliacao' src='./photos/avaliacao-sanitaria.jpeg'><h2  class='title'>Avaliacao Sanitaria</h2></img>
+      
+      <div class='projetos-container'>
+
+        <div class='avaliacao-projetos'>
+          <img class='img-avaliacao' src='./photos/avaliacao-sanitaria.jpeg'>
+            <div class='projetos-conteudo'>
+              <h2>Avaliacao Sanitária</h2>
+              <a>Veja Mais+</a>
+            </div>
+          </img>
+        </div>
+
+        <div class='pequi-projetos'>
+            <img class='img-pequi' src='./photos/pequi.jpeg'>
+              <div class='projetos-conteudo'>
+                <h2>Sou eu Pequi</h2>
+                <a>Veja Mais+</a>
+              </div>
+            </img>
+        </div>
         
-      </div>
-      <div class='educacao'>
-        <img class='img-educacao' src='./photos/educaçao-ambiental.jpg'><h2  class='title'>Educaçao Ambiental</h2></img>
-        
+        <div class='educacao-projetos'>
+          <img class='img-educacao' src='./photos/educaçao-ambiental.jpg'>
+            <div class='projetos-conteudo'>
+              <h2>Educaçao Ambiental</h2>
+              <a>Veja Mais+</a>
+            </div>
+          </img>
+        </div>
+
       </div>
     </div>
 
@@ -148,7 +175,7 @@
     </div>
 
     <div class='equipe'>
-      <h1>EQUIPE</h1>
+      <h1>ESPECIES</h1>
     </div>
 
     <div class='apoie'>
@@ -158,7 +185,9 @@
   </main>
 
 
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+  <script src="app.js"></script>
 </body>
 
 </html>

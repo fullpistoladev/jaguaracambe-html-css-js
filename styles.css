@@ -30,7 +30,7 @@ h3 {
   color: #000000;
 }
 
-.home_subtitle, h3 {
+.home-subtitle, h3 {
   color: #000000;
   text-decoration: none;
   font-size: 1.2em;
@@ -38,7 +38,7 @@ h3 {
   text-align: left;
 }
 
-a {
+.links a {
   background-color: rgba(255,191,105,1);
   padding: 6px 20px;
   border-radius: 20px;
@@ -48,12 +48,12 @@ a {
   
 }
 
-ul a {
+.sublinks a {
   background-color: transparent;
   border-radius: 0;
   font-family: 'Shippori Mincho B1', serif;
   color: rgba(58, 25, 0, 0.75);
-
+  margin-bottom: 10px;
   box-shadow: none;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
@@ -100,7 +100,7 @@ main {
   flex-direction: column;
   background: linear-gradient(229deg, rgba(255,191,105,1) 0%, rgba(226,113,29,1) 100%);
  /*  background: linear-gradient(229deg, rgba(255,191,105,1) 0%, rgba(226,113,29,1) 100%); */
- overflow: hidden;
+  overflow: hidden;
   scroll-behavior: auto;
 }
 
@@ -156,7 +156,7 @@ header {
 
 }
 
-.homePage {
+.home-page {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -174,16 +174,19 @@ header {
   background-attachment: fixed;
 }
 
-.jaguaracambe_image {
+.jaguaracambe-image {
   width: 70%;
   height: 70%;
-
+  position: fixed;
+  left: 30%;
 }
 
-.side_content {
-  height: 100%;
-  padding-top: 15%;
+.side-content {
+  height: 30%;
+  top: 30%;
   padding-left: 70px;
+  position: fixed;
+  border: 1px solid red;
 }
 
 .sublinks {
@@ -207,17 +210,16 @@ header {
   display: flex;
 }
 
-.quem_somos_page {
+.quem-somos-page {
   margin-top: 20vh;
   height: 100vh;
   width: 100%;
   position: relative;
   top: 50%;
-  
   border: 1px solid red;
 }
 
-.quem_somos_section {
+.quem-somos-section {
   height: 30%;
   width: 35%;
  
@@ -261,7 +263,7 @@ header {
 }
 
 
-.missao_visao_valores {
+.missao-visao-valores {
   
   height: 40%;
   width: 100%;
@@ -328,12 +330,13 @@ p {
   height: 30vh;  
 }
 
-.projetos, .equipe, .apoie {
+#projetos, .equipe, .apoie {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 100vh;
+  
 }
 
 .equipe {
@@ -344,30 +347,21 @@ p {
 .img-pequi, .img-avaliacao, .img-educacao  {
   height: 35vh;
   border-radius: 76% 24% 72% 28% / 42% 52% 48% 58%;
-}
-
-.projetos {
   position: relative;
 }
-.pequi {
-  position: absolute;
-  top: 25%;
-  left: 28%;
-}
-.avaliacao {
-  margin-top: 50vh;
-  position: absolute;
-  left: 30%;
 
-}
-.educacao {
-  margin-top: -35vh;
+#projetos {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+   
 }
 
-
-.pequi, .avaliacao, .educacao {
+.pequi-projetos, .avaliacao-projetos, .educacao-projetos {
   height: 35vh;
   padding: 0px 0px 0px 0px;
+  margin-top: 35px;
   background: rgba(226,113,29,1);
   box-shadow: 8px 11px 25px 3px rgba(226,113,29,0.75);
   -webkit-box-shadow: 8px 11px 25px 3px rgba(226,113,29,0.75);
@@ -376,44 +370,77 @@ p {
   border-radius: 76% 24% 72% 28% / 42% 52% 48% 58%;
 }
 
-.avaliacao, .img-avaliacao {
+.avaliacao-projetos, .img-avaliacao {
   border-radius: 30% 70% 23% 77% / 62% 39% 61% 38%;
 }
 
-.title {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 60%;
+.sobre-projetos {
+  width: 45%;
   text-align: center;
+  z-index: 1;
+  align-self: start;
+  margin-top: 15vh;
+  margin-left: 15vh;
 }
 
-.projetos-texto {
-  
-  width: 80%;
-  margin: auto;
-  padding-top: 15px;
-  /* -webkit-box-shadow: 6px 9px 16px 4px rgba(226,113,29,0.81); 
-  box-shadow: 6px 9px 16px 4px rgba(226,113,29,0.81); */
-}
-
-.projetos-jaguaracambé {
-  margin-top: 3vh;
-}
-
-.projetos-side-content {
-  position: absolute;
-  left: 5%;
-  top: 20%;
-  text-align: center;
-  border-radius: 38% 62% 70% 30% / 55% 71% 29% 45%;
-  box-shadow: 6px 9px 16px 4px rgba(226,113,29,0.81);
-  width: 40%;
-  height: 40%;
-  background-color: #E2711D;
-}
-
-.projetos h2 {
+#projetos h2 {
   padding-top: 10px;
-  color: rgba(255, 255, 255, 0.75);
+  color: rgb(255, 255, 255);
+}
+
+.projetos-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  position: relative;
+}
+
+.projetos-conteudo {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.projetos-conteudo h2 {
+  margin-bottom: 10px;
+}
+
+.projetos-conteudo a {
+  border: 1px solid white;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+} 
+
+.projetos-conteudo a:hover {
+  background: white;
+  color: #E2711D;
+  cursor: pointer;
+}
+
+.wave-projects {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.wave-projects svg {
+  position: relative;
+  display: block;
+  width: calc(139% + 1.3px);
+  height: 450px;
+}
+
+.wave-projects .shape-fill {
+  fill: #E2711D;
 }
