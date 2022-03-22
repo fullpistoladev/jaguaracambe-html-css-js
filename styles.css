@@ -157,7 +157,7 @@ header {
 
 }
 
-.home-page {
+#home-page {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -221,7 +221,11 @@ header {
 }
 
 .quem-somos-section p{
-  text-align: start;
+  text-align: center;
+}
+
+.quem-somos-section h2 {
+  text-align: center;
 }
 
 .quem-somos-section {
@@ -313,7 +317,7 @@ header {
 }
 
 .missao-visao-valores p {
-  text-align: start;
+  text-align: center;
 }
 
 /* quem somos wave --------------------------------------- */
@@ -345,7 +349,7 @@ header {
   height: 30vh;  
 }
 
-#projetos, .equipe, .apoie {
+#projetos, #equipe, #apoie {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -355,7 +359,7 @@ header {
   background: linear-gradient(229deg, rgba(255,191,105,1) 0%, rgba(226,113,29,1) 100%);
 }
 
-.equipe {
+#equipe {
   background: rgba(226,113,29,1);
   
 }
