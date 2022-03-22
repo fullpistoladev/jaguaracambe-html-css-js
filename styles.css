@@ -220,6 +220,10 @@ header {
   
 }
 
+.quem-somos-section p{
+  text-align: start;
+}
+
 .quem-somos-section {
   height: 30%;
   width: 35%;
@@ -227,12 +231,12 @@ header {
   margin-right: 250px;
   display: block;
 
-  background-color: rgba(255,191,105,1);
+  /* background-color: rgba(255,191,105,1);
   padding: 6px 20px;
   border-radius: 20px;
   box-shadow: 8px 11px 25px 3px rgba(226,113,29,0.75);
   -webkit-box-shadow: 8px 11px 25px 3px rgba(226,113,29,0.75);
-  -moz-box-shadow: 8px 11px 25px 3px rgba(226,113,29,0.75);
+  -moz-box-shadow: 8px 11px 25px 3px rgba(226,113,29,0.75); */
 }
 
 .top-quem-somos {
@@ -281,27 +285,35 @@ header {
 
 .missao, .visao, .valores {
   
-  height: 25vh;
-  width: 25%;
+  height: 30vh;
+  width: 30%;
   margin-top: 6vh;
   background-color: #E2711D;
+  
   padding: 6px 20px;
-  border-radius: 20px;
+  border-radius: 76% 24% 72% 28% / 42% 52% 48% 58%;
   box-shadow: 4px 3px 10px 2px rgba(255,191,105,1);
   -webkit-box-shadow: 4px 3px 10px 2px rgba(255,191,105,1);
   -moz-box-shadow: 4px 3px 10px 2px rgba(255,191,105,1); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .missao {
   width: 30%;
+}
+.visao {
+  border-radius: 30% 70% 23% 77% / 62% 39% 61% 38%;
 }
 
 .visao, .valores {
   width: 22%;
 }
 
-p {
-  text-align: justify;
+.missao-visao-valores p {
+  text-align: start;
 }
 
 /* quem somos wave --------------------------------------- */
