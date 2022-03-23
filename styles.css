@@ -210,7 +210,7 @@ header {
   display: flex;
 }
 
-.quem-somos-page {
+#quem-somos-page {
   height: 100vh;
   width: 100%;
   position: relative;
@@ -261,18 +261,6 @@ header {
   border-radius: 25% 75% 69% 31% / 61% 39% 61% 39%;
 
 }
-
-.animal-de-fundo {
-  width: 100vw;
-  height: 100vh;
-  background-image: url("./photos/gato.jpg");
-  opacity: 0.9;
-  background-size: cover;
-  background-attachment: fixed;
-  z-index: 1;
-  background-color:linear-gradient(229deg, rgba(255,191,105,1) 0%, rgba(226,113,29,1) 100%);;
-}
-
 
 .missao-visao-valores {
   
@@ -349,14 +337,14 @@ header {
   height: 30vh;  
 }
 
-#projetos, #equipe, #apoie {
+#projetos, #especies, #apoie, #membros {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 100vh;
   z-index: 1;
-  background: linear-gradient(229deg, rgba(255,191,105,1) 0%, rgba(226,113,29,1) 100%);
+  background: transparent;
 }
 
 #equipe {
@@ -442,6 +430,15 @@ header {
   background: white;
   color: #E2711D;
   cursor: pointer;
+}
+
+#backgroung-container {
+  z-index: 1;
+  background: linear-gradient(229deg, rgba(255,191,105,1) 0%, rgba(226,113,29,1) 100%);
+}
+
+#especies {
+  border: 1px solid red;
 }
 
 .wave-projects {
