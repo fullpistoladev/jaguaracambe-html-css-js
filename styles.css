@@ -434,12 +434,19 @@ header {
 
 #backgroung-container {
   z-index: 1;
-  background: linear-gradient(229deg, rgba(255,191,105,1) 0%, rgba(226,113,29,1) 100%);
+  background: linear-gradient(229deg, rgba(255,191,105,1) 0%, #e2711d 100%);
 }
 
 #especies {
-  border: 1px solid red;
+  background: url('./especies-background.svg') no-repeat;
+  background-size: cover;
+  
 }
+
+#membros {
+  background: url('./membros-background.svg') no-repeat;
+  background-size: cover;
+} 
 
 .wave-projects {
   position: absolute;
