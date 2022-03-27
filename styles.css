@@ -440,8 +440,66 @@ header {
 #especies {
   background: url('./especies-background.svg') no-repeat;
   background-size: cover;
+  justify-content: space-between;
   
 }
+
+.especies-side-content {
+ 
+  width: 35%;
+  align-self: start;
+  padding-top: 15vh;
+  padding-left: 10vh;
+}
+
+.especies-tipos {
+  padding-top: 20vh;
+ /*  width: 100%; */
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+ 
+  width: 50%;
+}
+
+.especies-conteudo {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.especies-side-content h2 {
+  text-align: center;
+ 
+}
+
+.first-row, .second-row {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.second-row {
+  margin-top: 10vh;
+}
+
+.canideos, .felideos, .procionidae, .mephitidae, .mustelidae {
+  height: 30vh;
+  margin-left: 20px;
+  border-radius: 30% 70% 23% 77% / 62% 39% 61% 38%;
+  position: relative;
+}
+
+.canideos, .procionidae, .mustelidae {
+  border-radius: 76% 24% 72% 28% / 42% 52% 48% 58%;
+}
+
 
 #membros {
   background: url('./membros-background.svg') no-repeat;
