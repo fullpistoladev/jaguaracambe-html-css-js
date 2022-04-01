@@ -1,0 +1,81 @@
+#projetos {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.avaliacao-projetos, .img-avaliacao {
+  border-radius: 30% 70% 23% 77% / 62% 39% 61% 38%;
+}
+
+.sobre-projetos {
+  width: 45%;
+  text-align: center;
+  z-index: 1;
+  align-self: start;
+  margin-top: 15vh;
+  margin-left: 15vh;
+}
+
+#projetos h2 {
+  padding-top: 10px;
+  color: rgb(255, 255, 255);
+}
+
+.projetos-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  position: relative;
+}
+
+.projetos-conteudo {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.projetos-conteudo h2 {
+  margin-bottom: 10px;
+}
+
+.projetos-conteudo a {
+  border: 1px solid white;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+} 
+
+.projetos-conteudo a:hover {
+  background: white;
+  color: #E2711D;
+  cursor: pointer;
+}
+
+.wave-projects {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.wave-projects svg {
+  position: relative;
+  display: block;
+  width: calc(139% + 1.3px);
+  height: 400px;
+}
+
+.wave-projects .shape-fill {
+  fill: #E2711D;
+}

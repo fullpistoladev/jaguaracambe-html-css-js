@@ -1,0 +1,123 @@
+#quem-somos-page {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  top: 50%;
+  background: linear-gradient(229deg, rgba(255,191,105,1) 0%, rgba(226,113,29,1) 100%); 
+}
+
+.quem-somos-section p{
+  text-align: center;
+}
+
+.quem-somos-section h2 {
+  text-align: center;
+}
+
+.quem-somos-section {
+  height: 30%;
+  width: 35%;
+ 
+  margin-right: 250px;
+  display: block;
+
+  /* background-color: rgba(255,191,105,1);
+  padding: 6px 20px;
+  border-radius: 20px;
+  box-shadow: 8px 11px 25px 3px rgba(226,113,29,0.75);
+  -webkit-box-shadow: 8px 11px 25px 3px rgba(226,113,29,0.75);
+  -moz-box-shadow: 8px 11px 25px 3px rgba(226,113,29,0.75); */
+}
+
+.top-quem-somos {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.foto-equipe {
+  margin-top: 17vh;
+  margin-right: 200px;
+  width: 40vh;
+  height: 50vh;
+  z-index: 3;
+  border-radius: 25% 75% 69% 31% / 61% 39% 61% 39%;
+
+}
+
+.missao-visao-valores {
+  
+  height: 40%;
+  width: 100%;
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #E2711D;
+}
+
+.missao, .visao, .valores {
+  
+  height: 30vh;
+  width: 30%;
+  margin-top: 6vh;
+  background-color: #E2711D;
+  padding: 6px 20px;
+  border-radius: 76% 24% 72% 28% / 42% 52% 48% 58%;
+  box-shadow: 4px 3px 10px 2px rgba(255,191,105,1);
+  -webkit-box-shadow: 4px 3px 10px 2px rgba(255,191,105,1);
+  -moz-box-shadow: 4px 3px 10px 2px rgba(255,191,105,1); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.missao {
+  width: 30%;
+}
+.visao {
+  border-radius: 30% 70% 23% 77% / 62% 39% 61% 38%;
+}
+
+.visao, .valores {
+  width: 22%;
+}
+
+.missao-visao-valores p {
+  text-align: center;
+}
+
+/* quem somos wave --------------------------------------- */
+
+.wave {
+  position: absolute;
+  bottom: 40%;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.wave svg {
+  position: relative;
+  display: block;
+  width: calc(147% + 1.3px);
+  height: 329px;
+
+}
+
+.wave .shape-fill {
+  fill: #E2711D;
+}
+
+.foto_equipe_trabalhando {
+  width: 30vh;
+  height: 30vh;  
+}

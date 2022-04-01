@@ -30,7 +30,7 @@ h3 {
   color: #000000;
 }
 
-.home-subtitle, h3 {
+#home-page h3 {
   color: #000000;
   text-decoration: none;
   font-size: 1.2em;
@@ -159,38 +159,6 @@ header {
 
 }
 
-#home-page {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  width: 100%;
-  height: 100vh;
-  padding-top: 10vh;
-  background: linear-gradient(229deg, rgba(255,191,105,1) 0%, rgba(226,113,29,1) 100%);
- /*  background-image: url("../jaguaracambe-fotos/aaa.png"); */
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: sticky;
-  top: 0;
-  left: 0;
-  z-index: 0;
- 
-}
-
-.jaguaracambe-image {
-  width: 70%;
-  height: 70%;
-  position: fixed;
-  left: 30%;
-}
-
-.side-content {
-  height: 30%;
-  top: 35%;
-  padding-left: 70px;
-  position: fixed;
-}
-
 .sublinks {
   display: none;
 }
@@ -212,131 +180,6 @@ header {
   display: flex;
 }
 
-#quem-somos-page {
-  height: 100vh;
-  width: 100%;
-  position: relative;
-  top: 50%;
-  background: linear-gradient(229deg, rgba(255,191,105,1) 0%, rgba(226,113,29,1) 100%);
-
-  
-}
-
-.quem-somos-section p{
-  text-align: center;
-}
-
-.quem-somos-section h2 {
-  text-align: center;
-}
-
-.quem-somos-section {
-  height: 30%;
-  width: 35%;
- 
-  margin-right: 250px;
-  display: block;
-
-  /* background-color: rgba(255,191,105,1);
-  padding: 6px 20px;
-  border-radius: 20px;
-  box-shadow: 8px 11px 25px 3px rgba(226,113,29,0.75);
-  -webkit-box-shadow: 8px 11px 25px 3px rgba(226,113,29,0.75);
-  -moz-box-shadow: 8px 11px 25px 3px rgba(226,113,29,0.75); */
-}
-
-.top-quem-somos {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-
-
-.foto-equipe {
-  margin-top: 17vh;
-  margin-right: 200px;
-  width: 40vh;
-  height: 50vh;
-  z-index: 3;
-  border-radius: 25% 75% 69% 31% / 61% 39% 61% 39%;
-
-}
-
-.missao-visao-valores {
-  
-  height: 40%;
-  width: 100%;
-  margin: 0;
-  position: absolute;
-  bottom: 0;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: #E2711D;
-}
-
-.missao, .visao, .valores {
-  
-  height: 30vh;
-  width: 30%;
-  margin-top: 6vh;
-  background-color: #E2711D;
-  padding: 6px 20px;
-  border-radius: 76% 24% 72% 28% / 42% 52% 48% 58%;
-  box-shadow: 4px 3px 10px 2px rgba(255,191,105,1);
-  -webkit-box-shadow: 4px 3px 10px 2px rgba(255,191,105,1);
-  -moz-box-shadow: 4px 3px 10px 2px rgba(255,191,105,1); 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.missao {
-  width: 30%;
-}
-.visao {
-  border-radius: 30% 70% 23% 77% / 62% 39% 61% 38%;
-}
-
-.visao, .valores {
-  width: 22%;
-}
-
-.missao-visao-valores p {
-  text-align: center;
-}
-
-/* quem somos wave --------------------------------------- */
-
-.wave {
-  position: absolute;
-  bottom: 40%;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
-
-.wave svg {
-  position: relative;
-  display: block;
-  width: calc(147% + 1.3px);
-  height: 329px;
-
-}
-
-.wave .shape-fill {
-  fill: #E2711D;
-}
-
-.foto_equipe_trabalhando {
-  width: 30vh;
-  height: 30vh;  
-}
 
 #projetos, #especies, #apoie, #membros {
   display: flex;
@@ -354,21 +197,13 @@ header {
 }
 
 .img-pequi, .img-avaliacao, .img-educacao  {
-  height: 35vh;
+  width: 100%;
   border-radius: 76% 24% 72% 28% / 42% 52% 48% 58%;
   position: relative;
 }
 
-#projetos {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-   
-}
-
 .pequi-projetos, .avaliacao-projetos, .educacao-projetos {
-  height: 35vh;
+  width: 30%;
   padding: 0px 0px 0px 0px;
   margin-top: 35px;
   background: rgba(226,113,29,1);
@@ -379,182 +214,12 @@ header {
   border-radius: 76% 24% 72% 28% / 42% 52% 48% 58%;
 }
 
-.avaliacao-projetos, .img-avaliacao {
-  border-radius: 30% 70% 23% 77% / 62% 39% 61% 38%;
-}
-
-.sobre-projetos {
-  width: 45%;
-  text-align: center;
-  z-index: 1;
-  align-self: start;
-  margin-top: 15vh;
-  margin-left: 15vh;
-}
-
-#projetos h2 {
-  padding-top: 10px;
-  color: rgb(255, 255, 255);
-}
-
-.projetos-container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-  z-index: 1;
-  position: relative;
-}
-
-.projetos-conteudo {
-  text-align: center;
-  width: 100%;
-  position: absolute;
-  top: 65%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.projetos-conteudo h2 {
-  margin-bottom: 10px;
-}
-
-.projetos-conteudo a {
-  border: 1px solid white;
-  color: white;
-  padding: 5px;
-  border-radius: 10px;
-} 
-
-.projetos-conteudo a:hover {
-  background: white;
-  color: #E2711D;
-  cursor: pointer;
-}
-
 #backgroung-container {
   z-index: 1;
   background: linear-gradient(229deg, rgba(255,191,105,1) 0%, #e2711d 100%);
 }
 
-#especies {
-  margin-top: 10vh;
-  background: url('./especies-background.svg') no-repeat;
-  background-size: cover;
-  justify-content: space-between;
-  position: relative;
-  
-}
-
-.especies-side-content {
-  width: 40%;
-  align-self: start;
-  padding-top: 15vh;
-  padding-left: 10vh;
-}
-
-.especies-tipos {
-  padding-top: 20vh;
- /*  width: 100%; */
-  height: 100%;
-  display: flex;
-  align-items: flex-end;
-  flex-direction: column;
- 
-  width: 50%;
-  position: relative;
-}
-
-/* .especies-conteudo {
-  width: 100%;
-  height: 100%;
-  
-} */
-
-
-
-.especies-side-content h2 {
-  text-align: center;
- 
-}
-
-.first-row, .second-row {
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
-  position: relative;
-
-}
-
-.especies-container {
-  position: relative;
-}
-
-.especies-container h2 {
-  margin-bottom: 10px;
-}
-
-.especies-container a {
-  border: 1px solid white;
-  color: white;
-  padding: 5px;
-  border-radius: 10px;
-} 
-
-.especies-container a:hover {
-  background: white;
-  color: #E2711D;
-  cursor: pointer;
-}
-
-.second-row {
-  margin-top: 10vh; 
-}
-
-.canideos, .felideos, .procionidae, .mephitidae, .mustelidae {
-  height: 30vh;
-  margin-left: 20px;
-  border-radius: 30% 70% 23% 77% / 62% 39% 61% 38%;
-  position: relative;
-}
-
-.especies-canideos, .especies-felideos, .especies-procionidae, .especies-mephitidae, .especies-mustelidae {
-  text-align: center;
-  width: 100%;
-  position: absolute;
-  top: 65%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.canideos, .procionidae, .mustelidae {
-  border-radius: 76% 24% 72% 28% / 42% 52% 48% 58%;
-}
-
-
 #membros {
   background: url('./membros-background.svg') no-repeat;
   background-size: cover;
 } 
-
-.wave-projects {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
-
-.wave-projects svg {
-  position: relative;
-  display: block;
-  width: calc(139% + 1.3px);
-  height: 400px;
-}
-
-.wave-projects .shape-fill {
-  fill: #E2711D;
-}
