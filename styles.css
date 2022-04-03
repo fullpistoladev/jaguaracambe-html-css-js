@@ -200,23 +200,7 @@ header {
   
 }
 
-.img-pequi, .img-avaliacao, .img-educacao  {
-  width: 100%;
-  border-radius: 76% 24% 72% 28% / 42% 52% 48% 58%;
-  position: relative;
-}
 
-.pequi-projetos, .avaliacao-projetos, .educacao-projetos {
-  width: 30%;
-  padding: 0px 0px 0px 0px;
-  margin-top: 35px;
-  background: rgba(226,113,29,1);
-  box-shadow: 8px 11px 25px 3px rgba(226,113,29,0.75);
-  -webkit-box-shadow: 8px 11px 25px 3px rgba(226,113,29,0.75);
-  -moz-box-shadow: 8px 11px 25px 3px rgba(226,113,29,0.75);
-  position: relative;
-  border-radius: 76% 24% 72% 28% / 42% 52% 48% 58%;
-}
 
 #backgroung-container {
   z-index: 1;

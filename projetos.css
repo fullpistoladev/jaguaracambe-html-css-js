@@ -59,6 +59,24 @@
   cursor: pointer;
 }
 
+.img-pequi, .img-avaliacao, .img-educacao  {
+  width: 100%;
+  border-radius: 76% 24% 72% 28% / 42% 52% 48% 58%;
+  position: relative;
+}
+
+.pequi-projetos, .avaliacao-projetos, .educacao-projetos {
+  width: 30%;
+  padding: 0px 0px 0px 0px;
+  margin-top: 35px;
+  background: rgba(226,113,29,1);
+  box-shadow: 8px 11px 25px 3px rgba(226,113,29,0.75);
+  -webkit-box-shadow: 8px 11px 25px 3px rgba(226,113,29,0.75);
+  -moz-box-shadow: 8px 11px 25px 3px rgba(226,113,29,0.75);
+  position: relative;
+  border-radius: 76% 24% 72% 28% / 42% 52% 48% 58%;
+}
+
 .wave-projects {
   position: absolute;
   top: 0;
@@ -81,6 +99,11 @@
 }
 
 @media only screen and (max-width: 600px) {
+
+  #projetos {
+    height: 150vh;
+  }
+
   .sobre-projetos {
     width: 100%;
     text-align: center;
@@ -89,8 +112,31 @@
     margin-top: 10vh;
     margin-left: 0vh;
   }
+
+  .projetos-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+  }
+
+  .pequi-projetos, .avaliacao-projetos, .educacao-projetos {
+    width: 96%;
+    padding: 0px 0px 0px 0px;
+    margin-top: 35px;
+    background: rgba(226,113,29,1);
+    box-shadow: 8px 11px 25px 3px rgba(226,113,29,0.75);
+    -webkit-box-shadow: 8px 11px 25px 3px rgba(226,113,29,0.75);
+    -moz-box-shadow: 8px 11px 25px 3px rgba(226,113,29,0.75);
+    position: relative;
+    border-radius: 76% 24% 72% 28% / 42% 52% 48% 58%;
+  }
+
   .wave-projects svg {
-    
-    height: 600px;
+    height: 200px;
   }
 }
