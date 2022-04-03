@@ -79,3 +79,18 @@
 .wave-projects .shape-fill {
   fill: #E2711D;
 }
+
+@media only screen and (max-width: 600px) {
+  .sobre-projetos {
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    align-self: start;
+    margin-top: 10vh;
+    margin-left: 0vh;
+  }
+  .wave-projects svg {
+    
+    height: 600px;
+  }
+}
