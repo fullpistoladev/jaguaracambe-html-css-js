@@ -1,0 +1,24 @@
+#equipe {
+  position: relative;
+}
+
+.wave-equipe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.wave-equipe svg {
+  position: relative;
+  display: block;
+  width: calc(139% + 1.3px);
+  height: 250px;
+}
+
+.wave-equipe .shape-fill {
+  fill: #E2711D;
+}

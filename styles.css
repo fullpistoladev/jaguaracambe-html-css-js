@@ -185,30 +185,23 @@ header {
 }
 
 
-#projetos, #especies, #apoie, #membros {
+#projetos, #especies, #apoie, #equipe {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 100vh;
   z-index: 1;
-  background: transparent;
+  /* background: transparent; */
 }
-
-#equipe {
-  background: rgba(226,113,29,1);
-  
-}
-
-
 
 #backgroung-container {
   z-index: 1;
-  background: linear-gradient(229deg, rgba(255,191,105,1) 0%, #e2711d 100%);
+  background: linear-gradient(229deg, #ffbf69 0%, #e2711d 100%);
 }
 
-#membros {
-  background: url('./membros-background.svg') no-repeat;
+#equipe {
+ /*  background: url('./membros-background.svg') no-repeat; */
   background-size: cover;
 } 
 

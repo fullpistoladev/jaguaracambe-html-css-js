@@ -1,6 +1,7 @@
 #especies {
-  margin-top: 10vh;
-  background: url('./especies-background.svg') no-repeat;
+  padding-top: 15vh; 
+  /* background: url('./especies-background.svg') no-repeat; */
+  background: url('./fundo.svg') no-repeat;
   background-size: cover;
   justify-content: space-between;
   position: relative;
@@ -8,14 +9,14 @@
 }
 
 .especies-side-content {
-  width: 40%;
+  width: 45%;
   align-self: start;
-  padding-top: 15vh;
+  
   padding-left: 10vh;
 }
 
 .especies-tipos {
-  padding-top: 20vh;
+ /*  padding-top: 15vh; */
  /*  width: 100%; */
   height: 100%;
   display: flex;
@@ -41,7 +42,6 @@
   display: flex;
   justify-content: flex-end;
   position: relative;
-
 }
 
 .especies-container {
@@ -67,6 +67,7 @@
 
 .second-row {
   margin-top: 10vh; 
+ 
 }
 
 .canideos, .felideos, .procionidae, .mephitidae, .mustelidae {
@@ -87,4 +88,39 @@
 
 .canideos, .procionidae, .mustelidae {
   border-radius: 76% 24% 72% 28% / 42% 52% 48% 58%;
+}
+
+@media only screen and (max-width: 600px) {
+  #especies {
+    height: 200vh;
+    flex-direction: column;
+  }
+  .especies-side-content {
+    width: 96%;
+    align-self: center;
+    text-align: center;
+    padding-top: 0;
+    padding-left: 0;
+  }
+
+  .first-row, .second-row {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .second-row {
+    margin-top: 0; 
+  } 
+
+  .canideos, .felideos, .procionidae, .mephitidae, .mustelidae {
+    height: 30vh;
+    margin-left: 0;
+    border-radius: 30% 70% 23% 77% / 62% 39% 61% 38%;
+    position: relative;
+  }
+ 
 }
