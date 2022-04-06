@@ -14,10 +14,10 @@ h1 {
 }
 
 .arrow {
-  position: absolute;
-  top: 20vh;
-  margin: 10vh;
-  
+ /*  margin-top: 20vh; */
+  position: fixed;
+  top: 15vh;
+  left: 10vh;
   font-size: 3rem;
   color: #ffffff;
   border: 1px solid #ffffff;
@@ -39,6 +39,7 @@ h1 {
   background: url('./fundo.svg') no-repeat;
   background-size: cover;
   z-index: 2;
+  border: 1px solid green;
 }
 
 .pequi-content {
