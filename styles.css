@@ -224,6 +224,17 @@ header {
     display: flex;
   }
 
+  #top-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 20px;
+    border: 1px solid rgb(255, 0, 0);
+    z-index: 2; 
+    position: fixed;
+  }
+
   header {
     border: 1px solid green;
     width: 100%;
@@ -233,32 +244,29 @@ header {
     overflow-y: auto;
     align-items: center;
     width: 100%;
-    position: fixed;
-  }
-
-  
-
-  
-  #top-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    padding: 0 20px;
-    border: 1px solid rgb(255, 0, 0);
-    
+    user-select: none;
   }
 
   nav {
     flex-direction:column;
     border: 1px solid blue;
     margin-top: 20px;
-    width: 80%;
+    width: 100%;
     height: auto;
     overflow-y: auto;
-    margin-left: 200%;
-  
+    background: #b83030;
+    z-index: 1; 
+    margin-top: -150vh;   
   }
+
+  header.active nav {
+    z-index: 5; 
+    margin-top: 10vh; 
+    
+  } 
+
+
+  
 
   .sublinks {
     display: flex;
