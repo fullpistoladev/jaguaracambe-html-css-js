@@ -15,6 +15,15 @@
   z-index: 0;
 }
 
+#home-page h3 {
+  color: #000000;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-family: 'Shippori Mincho B1', serif;
+  text-align: left;
+  width: 80%;
+}
+
 .jaguaracambe-image {
   width: 70%;
   height: auto;
