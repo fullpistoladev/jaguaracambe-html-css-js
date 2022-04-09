@@ -210,6 +210,7 @@ header {
 } 
 
 @media only screen and (max-width: 600px) {
+
   .logo {
     width: 50px;
     height: 50px;
@@ -228,7 +229,7 @@ header {
   }
 
   #hamburger {
-    border-top: 2px solid #ffffff;
+    border-top: 3px solid #ffffff;
     width: 25px;
   }
 
@@ -236,13 +237,25 @@ header {
     content: "";
     display: block;
     width: 25px;
-    height: 2px;
+    height: 3px;
     background-color: #ffffff;  
-    margin-top: 6px;
+    margin-top: 5px;
+    position: relative;
+    transition: all 0.3s ease;
   }
 
-  #hamburger::before {
-    background-color: #ffffff;  
+  header.active #hamburger {
+    border-top-color: transparent;
+  }
+
+  header.active #hamburger::after {
+    transform: rotate(135deg);
+    margin-top: 0;
+    top: -3px;
+  } 
+
+  header.active #hamburger::before {
+    transform: rotate(-135deg); 
   }
 
   #top-header {
@@ -251,7 +264,6 @@ header {
     justify-content: space-between;
     width: 100%;
     padding: 0 20px;
-    border: 1px solid rgb(255, 0, 0);
     z-index: 2; 
     position: fixed;
   }
@@ -265,7 +277,6 @@ header {
     overflow-y: auto;
     align-items: center;
     width: 100%;
-    
   }
 
   nav {
@@ -277,16 +288,12 @@ header {
     z-index: 1; 
     height: 0px;   
     transition: .6s;
-    
   }
 
   header.active nav {
     height: 100vh; 
     padding-top: 10vh;
   } 
-
-
-  
 
   .sublinks {
     display: flex;
