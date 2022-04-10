@@ -78,7 +78,12 @@
         <h1>JAGUARACAMBÉ</h1>
         <h3>Associação para Conservação da Biodiversidade</h3>
       </div>
-      <img class='jaguaracambe-image' src='./photos/jaguaracambe.png'></img>
+     <!--  <img class='jaguaracambe-image' src='./photos/jaguaracambe.png'></img> -->
+      <picture class='jaguaracambe-image'>
+        <source media="(max-width:600px)" srcset="./photos/jaguaracambe-mobile.png">
+        <!-- <source media="(min-width:601px)" srcset="./photos/jaguaracambe-mobile.png"> -->
+        <img src="./photos/jaguaracambe.png" alt="jaguaracambe">
+      </picture>
     </div>
 
     <div id='quem-somos-page'>

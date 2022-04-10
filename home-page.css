@@ -24,11 +24,17 @@
   width: 80%;
 }
 
-.jaguaracambe-image {
+picture {
   width: 70%;
+  left: 30%;
+  bottom: 0;
   height: auto;
   position: fixed;
-  left: 30%;
+}
+
+picture img {
+  width: 100%;
+  height: 100%;
 }
 
 .side-content {
@@ -69,7 +75,6 @@
 
   .jaguaracambe-image {
     width: 100%;
-    
     position: fixed;
     left: 0;
   }
@@ -78,9 +83,9 @@
     
     position: fixed;
     
-    top: translate(-50%, -50%);
-    
+    top: 15vh;
     padding-left: 0;
+
   }
 
 }
