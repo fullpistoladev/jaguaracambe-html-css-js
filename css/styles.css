@@ -20,7 +20,12 @@ html {
 a, h3 {
   color: #000000;
   text-decoration: none;
-  font-family: 'Shippori Mincho B1', serif;
+  font-family: 'edoregular','Shippori Mincho B1', serif;
+  font-weight: normal;
+  font-style: normal;
+}
+a {
+  color: #ffffff;
 }
 
 h3 {
@@ -38,13 +43,15 @@ h1 {
 h2 {
   color: #ffffff;
   font-size: 2rem;
-  font-family: 'IM Fell Double Pica', serif;
+  font-family: 'edoregular', 'IM Fell Double Pica', serif;
+  font-weight: normal;
+    font-style: normal;
 }
 
 h3 {
   color: #ffffff;
   font-size: 1.5rem;
-  font-family: 'IM Fell Double Pica', serif;
+  font-family: 'edoregular', 'IM Fell Double Pica', serif;
 }
 
 h1, h3, h2 {
