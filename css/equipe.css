@@ -66,6 +66,7 @@
   padding: 0;
   display: inline-block;
   border-radius: 20px;
+  scrollbar-width: thin;
   padding: 2px;
  /*  display: flex;
   flex-direction: column; */
@@ -100,6 +101,10 @@
   fill: #E2711D;
 }
 
+.membros-container ul {
+  scrollbar-width: thin;
+}
+
 .membros-container ul::-webkit-scrollbar-track
 {
 	box-shadow: inset 0 0 2px rgba(0,0,0,0.3);
@@ -109,13 +114,13 @@
 
 .membros-container ul::-webkit-scrollbar
 {
-	width: 12px;
+	height: 10px;
 	background-color: #ffbf69;
 }
 
 .membros-container ul::-webkit-scrollbar-thumb
 {
-	border-radius: 10px;
+	border-radius: 15px;
 	box-shadow: inset 0 0 2px rgba(0,0,0,.3);
 	background-color: #fffffe;
 }
