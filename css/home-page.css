@@ -52,7 +52,6 @@ picture img {
     width: 100vw;
     height: 100vh;
     padding-top: 10vh;
-    background: linear-gradient(229deg, rgba(255,191,105,1) 0%, rgba(226,113,29,1) 100%);
    /*  background-image: url("../jaguaracambe-fotos/aaa.png"); */
     background-size: cover;
     background-repeat: no-repeat;
