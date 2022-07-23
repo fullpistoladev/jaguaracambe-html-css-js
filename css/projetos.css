@@ -18,6 +18,10 @@
   margin-left: 15vh;
 }
 
+.sobre-projetos p {
+  color:#E2711D;
+}
+
 #projetos h2 {
   padding-top: 10px;
   color: rgb(255, 255, 255);
@@ -95,7 +99,7 @@
 }
 
 .wave-projects .shape-fill {
-  fill: #E2711D;
+  fill: #170B03;
 }
 
 @media only screen and (max-width: 600px) {

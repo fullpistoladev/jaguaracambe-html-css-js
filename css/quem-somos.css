@@ -3,7 +3,7 @@
   width: 100%;
   position: relative;
 /*   top: 50%; */
-  background: linear-gradient(229deg, rgba(255,191,105,1) 0%, rgba(226,113,29,1) 100%); 
+  background: #E26C1D; 
 }
 
 .quem-somos-section p{
@@ -35,7 +35,10 @@
   justify-content: center;
   align-items: center;
  /*  border: 1px solid rgb(81, 255, 0); */
+}
 
+.top-quem-somos p {
+  color: #170B03;
 }
 
 .foto-equipe {
@@ -57,14 +60,22 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #E2711D; 
+  background-color: #170B03; 
+}
+
+.missao-visao-valores p {
+  color:#E26C1D;
+}
+
+.quem-somos-section h2 {
+  color:#ffffff;
 }
 
 .missao, .visao, .valores {
   height: 30vh;
   width: 30%;
   margin-top: 6vh;
-  background-color: #E2711D;
+  background-color: #170B03;
   padding: 6px 20px;
   border-radius: 76% 24% 72% 28% / 42% 52% 48% 58%;
   box-shadow: 4px 3px 10px 2px rgba(255,191,105,1);
@@ -111,7 +122,7 @@
 }
 
 .wave .shape-fill {
-  fill: #E2711D;
+  fill: #170B03;
 }
 
 .foto_equipe_trabalhando {

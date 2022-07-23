@@ -28,10 +28,6 @@ a {
   color: #ffffff;
 }
 
-h3 {
-  color: #000000;
-}
-
 h1 {
   color: #ffffff;
   font-size: 4rem;
@@ -58,7 +54,6 @@ h2 {
 } */
 
 h3 {
-  color: #ffffff;
   font-size: 1.5rem;
   font-family: 'edoregular', 'IM Fell Double Pica', serif;
 }
@@ -96,9 +91,14 @@ main {
   /* background: transparent; */
 }
 
+#apoie {
+  background: #170B03;
+}
+
+
 #backgroung-container {
   z-index: 1;
-  background: linear-gradient(229deg, #ffbf69 0%, #e2711d 100%);
+  background: #E26C1D;
 }
 
 #equipe {

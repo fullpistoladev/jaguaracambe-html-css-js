@@ -1,0 +1,48 @@
+#pagina-ambiental {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #245501;
+  z-index: 1;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 3rem;
+  font-family: 'IM Fell Double Pica', serif;
+}
+
+.arrow {
+ /*  margin-top: 20vh; */
+  position: fixed;
+  top: 15vh;
+  left: 10vh;
+  font-size: 3rem;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+#pagina-ambiental a:hover  {
+  color: #080000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.ambiental-container {
+  padding-top: 15vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: url('./fundo.svg') no-repeat;
+  background-size: cover;
+  z-index: 2;
+  border: 1px solid green;
+}
+
+.ambiental-content {
+  width: 60%;
+  height: 100%;
+}
